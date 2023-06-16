@@ -15,9 +15,10 @@ const Portfolio = () => {
               <img src={project.image} alt="portfolio_image" />
             </div>
             <h3>{project.title}</h3>
+            <h5 style={{color:'#FFD93D',marginBottom:'15px'}}>{project.language}</h5>
             <div className="portfolio__item-links">
-              <a href={project.github} className='btn'>Github</a>
-              <a href={project.demo} className='btn btn-primary'>Live Demo</a>
+              <a href={project.github} className='btn' target='_blank'>Github</a>
+              <a href={project.demo} className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
           </article>
           )
