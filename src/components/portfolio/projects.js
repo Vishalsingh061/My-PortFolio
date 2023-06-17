@@ -1,5 +1,5 @@
-import IMG1 from '../../assets/internship_tracking.png';
-import IMG2 from '../../assets/url_shortener.png';
+import IMG1 from '../../assets/portfolio1.jpg';
+import IMG2 from '../../assets/portfolio3.jpg';
 import IMG3 from "../../assets/topic_modeling.png";
 import IMG4 from "../../assets/grammar.png";
 import IMG5 from "../../assets/shop.png";
