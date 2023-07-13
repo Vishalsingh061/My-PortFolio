@@ -19,14 +19,14 @@ const Contact = () => {
           <article className="contact__option">
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>nazirsharifi19@gmail.com</h5>
-            <a href="mailto:nazirsharifi19@gmail.com" target='_blank'>Email Me</a>
+            <h5>vishalpratap906@gmail.com</h5>
+            <a href="mailto:vishalpratap906@gmail.com" target='_blank'>Email Me</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+90 536 991 5033</h5>
-            <a href="https://api.whatsapp.com/send?phone=+905369915033" target='_blank'>Send a Message</a>
+            <h5>+91-7983566675</h5>
+            <a href="https://api.whatsapp.com/send?phone=7983566675" target='_blank'>Send a Message</a>
           </article>
         </div>
 

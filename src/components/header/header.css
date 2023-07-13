@@ -10,6 +10,24 @@ header {
     position: relative;
 }
 
+.typing-effect {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3s steps(20, end) infinite;
+  margin: 0 auto;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
 /* ======== CTA ======== */
 .cta {
     margin-top: 2.5rem;
@@ -37,16 +55,16 @@ header {
 }
 
 /* ============ Image ========== */
-.me {
+.Mine-img {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 35rem;
+    height: 33rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 5rem 1.5rem 3rem 1.5rem;
 }
 
 /* ============= SCROLL =================*/

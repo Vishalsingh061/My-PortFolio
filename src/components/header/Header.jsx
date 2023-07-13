@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/nazircan.png';
+import img from "../../assets/Minebg.png"
 import HeaderSocials from './HeaderSocials';
 
 const Header = () => {
@@ -9,13 +9,11 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Nazir Sharifi</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h1 className='typing-effect'>Vishal Singh</h1>
+        <h5 className="text-light">Frontend Developer</h5>
         <CTA/>
+        <img className="Mine-img" src={img} alt="" />
         <HeaderSocials/>
-        <div className="me">
-          <img src={ME} alt="nazirsharifi_img" />
-        </div>
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
     </header>
