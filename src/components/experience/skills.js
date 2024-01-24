@@ -1,32 +1,47 @@
 export const frontend_skills = [
   {
     id: 1,
-    skillName: "HTML5",
+    skillName: "HTML",
     level: "Experienced",
   },
   {
     id: 2,
-    skillName: "CSS3",
+    skillName: "CSS",
     level: "Experienced",
   },
   {
     id: 3,
-    skillName: "Bootstrap",
+    skillName: "JavaScript",
     level: "Experienced",
   },
   {
     id: 4,
-    skillName: "JavaScript",
-    level: "Intermediate",
+    skillName: "React.js",
+    level: "Experienced",
   },
   {
     id: 5,
-    skillName: "React.js",
-    level: "Intermediate",
+    skillName: "Redux",
+    level: "Experienced",
   },
   {
     id: 6,
-    skillName: "Sass",
+    skillName: "Bootstrap",
     level: "Experienced",
+  },
+  {
+    id: 7,
+    skillName: "Sass / Scss",
+    level: "Experienced",
+  },
+  {
+    id: 8,
+    skillName: "Jest",
+    level: "Intermediete",
+  },
+  {
+    id: 9,
+    skillName: "React Testing Library",
+    level: "Intermediete",
   },
 ];
