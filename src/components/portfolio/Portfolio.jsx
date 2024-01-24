@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Works</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <div className="container portfolio__container">
         {projects_list.map((project)=>{
           return (
