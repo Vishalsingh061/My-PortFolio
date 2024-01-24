@@ -61,6 +61,6 @@ export const projects_list = [
     title: "My Portfolio",
     techstack: "Html, Css, Javascript, ReactJS",
     github:"https://github.com/Vishalsingh061/My-PortFolio",
-    demo: "https://vishalsingh061.github.io/My-PortFolio/",
+    demo: "https://portfolioofvishal.netlify.app/",
   },
 ]
