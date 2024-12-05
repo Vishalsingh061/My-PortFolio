@@ -21,27 +21,22 @@ export const frontend_skills = [
   },
   {
     id: 5,
-    skillName: "Redux",
+    skillName: "Redux, Redux-toolkit",
     level: "Experienced",
   },
   {
     id: 6,
-    skillName: "Bootstrap",
+    skillName: "Responsive Design",
     level: "Experienced",
   },
   {
     id: 7,
-    skillName: "Sass / Scss",
+    skillName: "RESTful APIs and integration",
     level: "Experienced",
   },
   {
     id: 8,
-    skillName: "Jest",
-    level: "Intermediete",
-  },
-  {
-    id: 9,
-    skillName: "React Testing Library",
-    level: "Intermediete",
-  },
+    skillName: "Testing",
+    level: "Experienced",
+  }
 ];
