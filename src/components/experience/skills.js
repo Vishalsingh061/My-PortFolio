@@ -6,7 +6,7 @@ export const frontend_skills = [
   },
   {
     id: 2,
-    skillName: "CSS",
+    skillName: "CSS/CSS Frameworks",
     level: "Experienced",
   },
   {
