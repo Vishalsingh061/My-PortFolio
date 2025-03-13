@@ -57,10 +57,10 @@ const About = () => {
                       (April 2023 - Present)
                     </li>
                     <li>
-                      TutorX Pvt Ltd
+                      Techgeering Solutions Private Limited
                     </li>
                     <li>
-                      MERN Stack Mentor
+                      ReactJs Developer
                     </li>
                   </ul>
                 </div>
@@ -86,7 +86,6 @@ const About = () => {
                   <li>Javascript</li>
                   <li>ReactJs</li>
                   <li>Redux-toolkit</li>
-                  <li>MongoDB</li>
                   <li>Jest, React testing Library</li>
                 </ul></small>
             </article>
