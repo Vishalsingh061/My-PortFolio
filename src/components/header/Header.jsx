@@ -8,13 +8,31 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1 className='typing-effect'>Vishal Singh</h1>
-        <h5 className="typing-effects">ReactJs Developer</h5>
-        <CTA />
-        <img className="Mine-img" src={img} alt="" />
+        <div className="header__content">
+          <span className="header__greeting">Hello, I'm</span>
+          <h1 className='header__name'>
+            <span className="name__highlight">Vishal</span> Singh
+          </h1>
+          <div className="header__title-wrapper">
+            <span className="header__title">ReactJs Developer</span>
+          </div>
+          <p className="header__tagline">
+            Building modern, responsive & user-friendly web applications
+          </p>
+          <CTA />
+        </div>
+        
+        <div className="header__image-container">
+          <div className="header__image-bg"></div>
+          <img className="header__image" src={img} alt="Vishal Singh" />
+          <div className="header__image-ring"></div>
+        </div>
+        
         <HeaderSocials />
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        <a href="#about" className='scroll__down'>
+          <span className="scroll__text">Scroll Down</span>
+          <span className="scroll__line"></span>
+        </a>
       </div>
     </header>
   )

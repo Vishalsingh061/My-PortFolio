@@ -14,88 +14,92 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
+            {/* Personal Projects Card */}
             <article className='about__card'>
-              <FaAward className='about__icon' />
-              <h5>Personal Projects</h5>
-              <small>
+              <div className="about__card-header">
+                <FaAward className='about__icon' />
+                <h5>Personal Projects</h5>
+              </div>
+              <div className="about__card-content">
                 <ul>
                   <li>Employee Management System</li>
                   <li>Animated Education Website</li>
                   <li>MERN Connectify Social Media App</li>
-                  <li>MERN Task Manager app</li>
+                  <li>MERN Task Manager App</li>
                   <li>Chat App</li>
-                  <li>Netflix CLone</li>
+                  <li>Netflix Clone</li>
                   <li>Ecommerce Website</li>
-                  <li>Social Media</li>
                   <li>Restaurant Website</li>
-                  <li>Travel Website</li>
                   <li>My Portfolio</li>
-                </ul></small>
+                </ul>
+              </div>
             </article>
+
+            {/* Experience Card */}
             <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Experience</h5>
-              <small>
-                <div style={{
-                  display: "flex",
-                  flexDirection: "column",
-                }}>
-                  <ul >
-                    <li>
-                      (February 2022 - March 2023)
-                    </li>
-                    <li>
-                      Focus Edumatics Pvt Ltd
-                    </li>
-                    <li>
-                      Executive Web Development Tutor
-                    </li>
-                  </ul>
-                  <br />
-                  <ul >
-                    <li>
-                      (April 2023 - Present)
-                    </li>
-                    <li>
-                      Techgeering Solutions Private Limited
-                    </li>
-                    <li>
-                      ReactJs Developer
-                    </li>
-                  </ul>
+              <div className="about__card-header">
+                <FiUsers className='about__icon' />
+                <h5>Experience</h5>
+              </div>
+              <div className="about__card-content">
+                <div className="experience__item">
+                  <span className="experience__date">Nov 2025 - Present</span>
+                  <span className="experience__company">Softwiz Infotech Pvt Ltd</span>
+                  <span className="experience__role">ReactJs Developer</span>
                 </div>
-              </small>
+                <div className="experience__item">
+                  <span className="experience__date">April 2023 - Nov 2025</span>
+                  <span className="experience__company">Techgeering Solutions Pvt Ltd</span>
+                  <span className="experience__role">ReactJs Developer</span>
+                </div>
+              </div>
             </article>
+
+            {/* Certifications Card */}
             <article className='about__card'>
-              <TbCertificate className='about__icon' />
-              <h5>Certifications</h5>
-              <small>
+              <div className="about__card-header">
+                <TbCertificate className='about__icon' />
+                <h5>Certifications</h5>
+              </div>
+              <div className="about__card-content">
                 <ul>
-                  <li>Meta - Introduction to frontend Development</li>
+                  <li>Meta - Introduction to Frontend Development</li>
                   <li>Meta - Programming with JavaScript</li>
                 </ul>
-              </small>
+              </div>
             </article>
+
+            {/* Technologies Card */}
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon' />
-              <h5>Technologies</h5>
-              <small>
-                <ul>
-                  <li>Html</li>
-                  <li>Css</li>
-                  <li>Javascript</li>
-                  <li>ReactJs</li>
-                  <li>Redux-toolkit</li>
-                  <li>Jest, React testing Library</li>
-                </ul></small>
+              <div className="about__card-header">
+                <VscFolderLibrary className='about__icon' />
+                <h5>Technologies</h5>
+              </div>
+              <div className="about__card-content">
+                <div className="tech__tags">
+                  <span className="tech__tag">HTML5</span>
+                  <span className="tech__tag">CSS3</span>
+                  <span className="tech__tag">JavaScript</span>
+                  <span className="tech__tag">React.js</span>
+                  <span className="tech__tag">Redux</span>
+                  <span className="tech__tag">TypeScript</span>
+                </div>
+              </div>
             </article>
           </div>
-          <p>
-            Hi there! I'm a Computer Science graduate passionate about web development and problem-solving. I specialize in creating dynamic and user-friendly web applications using HTML, Sass, JavaScript, React.js, Redux, and Bootstrap.
-            <br />
-            I'm dedicated to learning new technologies and delivering high-quality work. Excited to collaborate and take on challenging projects—let's build something amazing together!
-          </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+
+          <div className="about__bio">
+            <p>
+              Hi there! I'm a <strong>Computer Science graduate</strong> passionate about web development and problem-solving. 
+              I specialize in creating <strong>dynamic and user-friendly web applications</strong> using modern technologies 
+              like React.js, Redux, TypeScript, and CSS frameworks.
+            </p>
+            <p>
+              I'm dedicated to learning new technologies and delivering high-quality work. 
+              Excited to collaborate and take on challenging projects—<strong>let's build something amazing together!</strong>
+            </p>
+            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          </div>
         </div>
       </div>
     </section >
