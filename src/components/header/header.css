@@ -321,11 +321,13 @@ header {
     .cta {
         flex-direction: column;
         gap: 0.8rem;
+        align-items: center;
     }
 
     .cta .btn {
         width: 100%;
         max-width: 200px;
+        text-align: center;
     }
 
     .header__image-container {
